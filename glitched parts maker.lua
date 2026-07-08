@@ -1,5 +1,5 @@
 -- Glitched Part Panel v27
-local debugging = 0
+debugging = 0
 debugging = 1
 coroutine.resume(coroutine.create(function()
     while wait(1) do
@@ -10,104 +10,104 @@ coroutine.resume(coroutine.create(function()
         end
     end
 end))
-local uis = game:GetService("UserInputService")
-local ismobile = uis.TouchEnabled
-local I1IiII1 = Instance.new("ScreenGui")
-local TopBar = Instance.new("Frame")
-local MainFrame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local pannel = Instance.new("Frame")
-local Part = Instance.new("Frame")
-local text = Instance.new("TextLabel")
-local TextBox = Instance.new("TextBox")
-local UICorner_2 = Instance.new("UICorner")
-local Property = Instance.new("Frame")
-local text_2 = Instance.new("TextLabel")
-local propertye = Instance.new("TextBox")
-local UICorner_3 = Instance.new("UICorner")
-local Value = Instance.new("Frame")
-local Text = Instance.new("TextLabel")
-local NumberValue = Instance.new("TextBox")
-local UICorner_4 = Instance.new("UICorner")
-local ColorSelection = Instance.new("Frame")
-local Red = Instance.new("TextBox")
-local UICorner_5 = Instance.new("UICorner")
-local Green = Instance.new("TextBox")
-local UICorner_6 = Instance.new("UICorner")
-local Blue = Instance.new("TextBox")
-local UICorner_7 = Instance.new("UICorner")
-local Execute = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local Selected = Instance.new("Frame")
-local UICorner_9 = Instance.new("UICorner")
-local NumberBtn = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local StringBtn = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local BoolBtn = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local ColourBtn = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local NameLabel = Instance.new("TextLabel")
-local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
-local CreditsOpen = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local Credits = Instance.new("Frame")
-local lostaccountkw_roblox = Instance.new("TextLabel")
-local context = Instance.new("TextLabel")
-local SiperStrengh35974 = Instance.new("TextLabel")
-local context_2 = Instance.new("TextLabel")
-local e = Instance.new("Frame")
-local Effects = Instance.new("Frame")
-local Effect = Instance.new("Frame")
-local text_3 = Instance.new("TextLabel")
-local EBox = Instance.new("TextBox")
-local UICorner_15 = Instance.new("UICorner")
-local Eproperty = Instance.new("Frame")
-local Text_2 = Instance.new("TextLabel")
-local PropertyoEffect = Instance.new("TextBox")
-local UICorner_16 = Instance.new("UICorner")
-local Execute_2 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local EValue = Instance.new("Frame")
-local Text_3 = Instance.new("TextLabel")
-local EffectBox = Instance.new("TextBox")
-local UICorner_18 = Instance.new("UICorner")
-local ColorSelection_2 = Instance.new("Frame")
-local Red_2 = Instance.new("TextBox")
-local UICorner_19 = Instance.new("UICorner")
-local Green_2 = Instance.new("TextBox")
-local UICorner_20 = Instance.new("UICorner")
-local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
-local Blue_2 = Instance.new("TextBox")
-local UICorner_21 = Instance.new("UICorner")
-local Selected_2 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local Number_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local String_2 = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Bool_2 = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local Colour_2 = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local EffectsOpen = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local X = Instance.new("TextButton")
-local nothing = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
-local TNT_tp = Instance.new("TextLabel")
-local context_3 = Instance.new("TextLabel")
-local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+uis = game:GetService("UserInputService")
+ismobile = uis.TouchEnabled
+I1IiII1 = Instance.new("ScreenGui")
+TopBar = Instance.new("Frame")
+MainFrame = Instance.new("Frame")
+UICorner = Instance.new("UICorner")
+pannel = Instance.new("Frame")
+Part = Instance.new("Frame")
+text = Instance.new("TextLabel")
+TextBox = Instance.new("TextBox")
+UICorner_2 = Instance.new("UICorner")
+Property = Instance.new("Frame")
+text_2 = Instance.new("TextLabel")
+propertye = Instance.new("TextBox")
+UICorner_3 = Instance.new("UICorner")
+Value = Instance.new("Frame")
+Text = Instance.new("TextLabel")
+NumberValue = Instance.new("TextBox")
+UICorner_4 = Instance.new("UICorner")
+ColorSelection = Instance.new("Frame")
+Red = Instance.new("TextBox")
+UICorner_5 = Instance.new("UICorner")
+Green = Instance.new("TextBox")
+UICorner_6 = Instance.new("UICorner")
+Blue = Instance.new("TextBox")
+UICorner_7 = Instance.new("UICorner")
+Execute = Instance.new("TextButton")
+UICorner_8 = Instance.new("UICorner")
+Selected = Instance.new("Frame")
+UICorner_9 = Instance.new("UICorner")
+NumberBtn = Instance.new("TextButton")
+UICorner_10 = Instance.new("UICorner")
+StringBtn = Instance.new("TextButton")
+UICorner_11 = Instance.new("UICorner")
+BoolBtn = Instance.new("TextButton")
+UICorner_12 = Instance.new("UICorner")
+ColourBtn = Instance.new("TextButton")
+UICorner_13 = Instance.new("UICorner")
+NameLabel = Instance.new("TextLabel")
+UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+CreditsOpen = Instance.new("TextButton")
+UICorner_14 = Instance.new("UICorner")
+Credits = Instance.new("Frame")
+lostaccountkw_roblox = Instance.new("TextLabel")
+context = Instance.new("TextLabel")
+SiperStrengh35974 = Instance.new("TextLabel")
+context_2 = Instance.new("TextLabel")
+e = Instance.new("Frame")
+Effects = Instance.new("Frame")
+Effect = Instance.new("Frame")
+text_3 = Instance.new("TextLabel")
+EBox = Instance.new("TextBox")
+UICorner_15 = Instance.new("UICorner")
+Eproperty = Instance.new("Frame")
+Text_2 = Instance.new("TextLabel")
+PropertyoEffect = Instance.new("TextBox")
+UICorner_16 = Instance.new("UICorner")
+Execute_2 = Instance.new("TextButton")
+UICorner_17 = Instance.new("UICorner")
+EValue = Instance.new("Frame")
+Text_3 = Instance.new("TextLabel")
+EffectBox = Instance.new("TextBox")
+UICorner_18 = Instance.new("UICorner")
+ColorSelection_2 = Instance.new("Frame")
+Red_2 = Instance.new("TextBox")
+UICorner_19 = Instance.new("UICorner")
+Green_2 = Instance.new("TextBox")
+UICorner_20 = Instance.new("UICorner")
+UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+Blue_2 = Instance.new("TextBox")
+UICorner_21 = Instance.new("UICorner")
+Selected_2 = Instance.new("Frame")
+UICorner_22 = Instance.new("UICorner")
+Number_2 = Instance.new("TextButton")
+UICorner_23 = Instance.new("UICorner")
+String_2 = Instance.new("TextButton")
+UICorner_24 = Instance.new("UICorner")
+Bool_2 = Instance.new("TextButton")
+UICorner_25 = Instance.new("UICorner")
+Colour_2 = Instance.new("TextButton")
+UICorner_26 = Instance.new("UICorner")
+EffectsOpen = Instance.new("TextButton")
+UICorner_27 = Instance.new("UICorner")
+TextLabel = Instance.new("TextLabel")
+X = Instance.new("TextButton")
+nothing = Instance.new("Frame")
+UICorner_28 = Instance.new("UICorner")
+UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+TNT_tp = Instance.new("TextLabel")
+context_3 = Instance.new("TextLabel")
+UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 
 UIAspectRatioConstraint.AspectRatio = 14.556
-local color = Color3.new(0.584604, 0.491824, 0.828419)
+color = Color3.new(0.584604, 0.491824, 0.828419)
 
 -- ==================== VISIBLE OUTPUT LOG (copyable TextBox) ====================
-local OutputLogFrame = Instance.new("Frame")
+OutputLogFrame = Instance.new("Frame")
 OutputLogFrame.Name = "OutputLog"
 OutputLogFrame.Parent = I1IiII1
 OutputLogFrame.BackgroundColor3 = Color3.fromRGB(18, 18, 22)
@@ -122,7 +122,7 @@ OutputLogFrame.Draggable = true
 Instance.new("UICorner", OutputLogFrame).CornerRadius = UDim.new(0, 10)
 
 -- Title bar
-local OutputTitleBar = Instance.new("Frame")
+OutputTitleBar = Instance.new("Frame")
 OutputTitleBar.Name = "TitleBar"
 OutputTitleBar.Parent = OutputLogFrame
 OutputTitleBar.BackgroundColor3 = Color3.fromRGB(45, 30, 70)
@@ -130,7 +130,7 @@ OutputTitleBar.Size = UDim2.new(1, 0, 0, 32)
 OutputTitleBar.ZIndex = 102
 Instance.new("UICorner", OutputTitleBar).CornerRadius = UDim.new(0, 10)
 
-local OutputTitleLabel = Instance.new("TextLabel")
+OutputTitleLabel = Instance.new("TextLabel")
 OutputTitleLabel.Parent = OutputTitleBar
 OutputTitleLabel.Size = UDim2.new(0.55, 0, 1, 0)
 OutputTitleLabel.Position = UDim2.new(0.02, 0, 0, 0)
@@ -143,7 +143,7 @@ OutputTitleLabel.TextXAlignment = Enum.TextXAlignment.Left
 OutputTitleLabel.ZIndex = 103
 
 -- Copy All button
-local CopyAllBtn = Instance.new("TextButton")
+CopyAllBtn = Instance.new("TextButton")
 CopyAllBtn.Name = "CopyAll"
 CopyAllBtn.Parent = OutputTitleBar
 CopyAllBtn.Size = UDim2.new(0.13, 0, 0.65, 0)
@@ -157,7 +157,7 @@ CopyAllBtn.ZIndex = 103
 Instance.new("UICorner", CopyAllBtn).CornerRadius = UDim.new(0, 5)
 
 -- Clear button
-local OutputClearBtn2 = Instance.new("TextButton")
+OutputClearBtn2 = Instance.new("TextButton")
 OutputClearBtn2.Name = "ClearLog"
 OutputClearBtn2.Parent = OutputTitleBar
 OutputClearBtn2.Size = UDim2.new(0.1, 0, 0.65, 0)
@@ -171,7 +171,7 @@ OutputClearBtn2.ZIndex = 103
 Instance.new("UICorner", OutputClearBtn2).CornerRadius = UDim.new(0, 5)
 
 -- Hide/Show button
-local OutputHideBtn = Instance.new("TextButton")
+OutputHideBtn = Instance.new("TextButton")
 OutputHideBtn.Name = "ToggleLog"
 OutputHideBtn.Parent = OutputTitleBar
 OutputHideBtn.Size = UDim2.new(0.12, 0, 0.65, 0)
@@ -189,7 +189,7 @@ OutputHideBtn.MouseButton1Click:Connect(function()
 end)
 
 -- The actual log text (TextBox = selectable + copyable)
-local LogTextBox = Instance.new("TextBox")
+LogTextBox = Instance.new("TextBox")
 LogTextBox.Name = "LogText"
 LogTextBox.Parent = OutputLogFrame
 LogTextBox.Size = UDim2.new(1, -10, 1, -40)
@@ -212,19 +212,19 @@ LogTextBox.Text = ""
 Instance.new("UICorner", LogTextBox).CornerRadius = UDim.new(0, 6)
 
 -- Helper: color3 to hex string for rich text
-local function c3toHex(c)
+function c3toHex(c)
     return string.format("#%02X%02X%02X",
         math.clamp(math.floor(c.R * 255), 0, 255),
         math.clamp(math.floor(c.G * 255), 0, 255),
         math.clamp(math.floor(c.B * 255), 0, 255))
 end
 
-local logLines = {}
-local logFullText = ""
-local MAX_LOG_LINES = 300
-local RichTextEnabled = true
+logLines = {}
+logFullText = ""
+MAX_LOG_LINES = 300
+RichTextEnabled = true
 
-local function customOutput(msg, msgColor)
+function customOutput(msg, msgColor)
     local text = tostring(msg)
     local hex = c3toHex(msgColor or Color3.new(1, 1, 1))
     local line = "[" .. hex .. "]" .. text .. "[/color]"
@@ -284,27 +284,27 @@ customOutput("=== Glitched Parts Panel v27 ===", Color3.fromRGB(100, 200, 255))
 customOutput("Output log active. Use Copy All to grab text.", Color3.fromRGB(180, 180, 180))
 -- ==================== END OUTPUT LOG ====================
 
-local nmb = Instance.new("NumberValue")
-local str = Instance.new("StringValue")
-local bool = Instance.new("BoolValue")
-local col = Instance.new("Color3Value")
-local r = Instance.new("NumberValue")
-local g = Instance.new("NumberValue")
-local b = Instance.new("NumberValue")
-local nub = Instance.new("NumberValue")
-local tri = Instance.new("StringValue")
-local boo = Instance.new("BoolValue")
-local lour = Instance.new("Color3Value")
-local r1 = Instance.new("NumberValue")
-local g1 = Instance.new("NumberValue")
-local b1 = Instance.new("NumberValue")
-local par = Instance.new("StringValue")
-local pr = Instance.new("StringValue")
-local rproperty = Instance.new("StringValue")
-local reffect = Instance.new("StringValue")
-local crediton = true
-local ef = Instance.new("StringValue")
-local efpr = Instance.new("StringValue")
+nmb = Instance.new("NumberValue")
+str = Instance.new("StringValue")
+bool = Instance.new("BoolValue")
+col = Instance.new("Color3Value")
+r = Instance.new("NumberValue")
+g = Instance.new("NumberValue")
+b = Instance.new("NumberValue")
+nub = Instance.new("NumberValue")
+tri = Instance.new("StringValue")
+boo = Instance.new("BoolValue")
+lour = Instance.new("Color3Value")
+r1 = Instance.new("NumberValue")
+g1 = Instance.new("NumberValue")
+b1 = Instance.new("NumberValue")
+par = Instance.new("StringValue")
+pr = Instance.new("StringValue")
+rproperty = Instance.new("StringValue")
+reffect = Instance.new("StringValue")
+crediton = true
+ef = Instance.new("StringValue")
+efpr = Instance.new("StringValue")
 
 I1IiII1.Name = "I1IiI!iI1"
 I1IiII1.Parent = game.CoreGui
@@ -371,7 +371,7 @@ text.TextScaled = true
 text.TextSize = 14.000
 text.TextWrapped = true
 
-local SelectButton = Instance.new("TextButton")
+SelectButton = Instance.new("TextButton")
 SelectButton.Name = "SelectButton"
 SelectButton.Parent = Part
 SelectButton.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
@@ -388,7 +388,7 @@ SelectButton.TextWrapped = true
 Instance.new("UICorner", SelectButton).CornerRadius = UDim.new(0, 6)
 
 -- DUMP BUTTON - dumps all ValueObjects + data from selected part to output log
-local DumpButton = Instance.new("TextButton")
+DumpButton = Instance.new("TextButton")
 DumpButton.Name = "DumpButton"
 DumpButton.Parent = Part
 DumpButton.BackgroundColor3 = Color3.fromRGB(180, 60, 20)
@@ -1166,23 +1166,23 @@ col.Name = "PartColor"
 lour.Name = "EffetColor"
 
 TopBar.Draggable = true
-local color = Color3.new(0, 1, 0)
-local A = false
-local value1 = "NumberValue"
-local value2 = "NumberValue"
-local Active = false
-local returnedpart = "NumberValue"
-local returnedeffect = "NumberValue"
+color = Color3.new(0, 1, 0)
+A = false
+value1 = "NumberValue"
+value2 = "NumberValue"
+Active = false
+returnedpart = "NumberValue"
+returnedeffect = "NumberValue"
 
 -- ==================== PIXEL ART AVATAR ====================
-local AvatarArt = Instance.new("Frame")
+AvatarArt = Instance.new("Frame")
 AvatarArt.Name = "AvatarArt"
 AvatarArt.Parent = Credits
 AvatarArt.BackgroundTransparency = 1
 AvatarArt.Position = UDim2.new(0.35, 0, 0.01, 0)
 AvatarArt.Size = UDim2.new(0, 100, 0, 72)
 
-local avatarData = {
+avatarData = {
     {0x515D6C,0x1A1E23,0x0B0A09,0x0A0807,0x321B16,0xC76C51,0xFDCCA1,0xFFE4C3,0xFFF0E0,0x61281B,0x080300,0x120604,0x050200,0x050200,0x070300,0x090300,0x572418,0xFEECD9,0xFFE4C5,0xFFE5CA,0xFFE3D1,0xFFE4C9,0xFFF7E0,0xFFF6E2},
     {0x7C8DA2,0x353C46,0x080504,0x110503,0x782B1C,0xF19D75,0xFFF1D1,0xFFF6E1,0xFFF8EF,0x6A392F,0x050200,0x030100,0x030100,0x040200,0x070200,0x180401,0x7A382B,0xFFF0E5,0xFFFAF2,0xFFFAEC,0xFFF5E1,0xFFF8E5,0xFFF6E8,0xF9BE9B},
     {0x90A3C2,0x434757,0x44110B,0xD95F3C,0xFEC080,0xFFF0D8,0xFFF1DC,0xFFE8CD,0xFFF7EC,0x682E21,0x0A0302,0x080100,0x170301,0x700905,0xA31B11,0xF46140,0xFFD4A2,0xFFFCF0,0xFFFCF1,0xFFFCEE,0xFFEED0,0xF39360,0xDA7E60,0x8B3A29},
@@ -1222,26 +1222,26 @@ end
 
 -- ==================== STEAL OBBY (LASSO + SERVER-SIDE STEAL) ====================
 -- Wrapped in a function to avoid Lua 5.1's 200 local variable limit
-local function buildStealSystem()
+function buildStealSystem()
 
 -- State
-local lassoMode = false
-local selectedParts = {}       -- {[part] = originalCFrame}
-local ghostParts = {}          -- {[ghost] = sourcePart}
-local lassoHighlights = {}     -- {[part] = Highlight object}
-local stealOffset = Vector3.new(0, 0, 0)
-local ghostCount = 0
-local lassoDragging = false
-local lassoStartX = 0
-local lassoStartY = 0
-local lassoEndX = 0
-local lassoEndY = 0
-local ghostFolder = nil
+lassoMode = false
+selectedParts = {}       -- {[part] = originalCFrame}
+ghostParts = {}          -- {[ghost] = sourcePart}
+lassoHighlights = {}     -- {[part] = Highlight object}
+stealOffset = Vector3.new(0, 0, 0)
+ghostCount = 0
+lassoDragging = false
+lassoStartX = 0
+lassoStartY = 0
+lassoEndX = 0
+lassoEndY = 0
+ghostFolder = nil
 
 -- Find remotes (AddObject + MoveObject = the key to actually creating parts)
-local stealAddObject = nil
-local stealMoveObject = nil
-local stealPaintObject = nil
+stealAddObject = nil
+stealMoveObject = nil
+stealPaintObject = nil
 pcall(function()
     local evts = game:GetService("ReplicatedStorage"):WaitForChild("Events", 5)
     if evts then
@@ -1251,7 +1251,7 @@ pcall(function()
     end
 end)
 
-local function ensureGhostFolder()
+function ensureGhostFolder()
     -- Parent ghosts to workspace directly so the server doesn't nuke them
     if not ghostFolder or not ghostFolder.Parent then
         ghostFolder = workspace:FindFirstChild("_StealGhosts")
@@ -1264,7 +1264,7 @@ local function ensureGhostFolder()
     return ghostFolder
 end
 
-local function createGhost(src)
+function createGhost(src)
     local gf = ensureGhostFolder()
     if not gf then return nil end
     local g = Instance.new("Part")
@@ -1296,7 +1296,7 @@ local function createGhost(src)
     return g
 end
 
-local function clearGhosts()
+function clearGhosts()
     for g, _ in pairs(ghostParts) do
         pcall(function() g:Destroy() end)
     end
@@ -1308,7 +1308,7 @@ local function clearGhosts()
     ghostFolder = nil
 end
 
-local function clearSelection()
+function clearSelection()
     for p, hl in pairs(lassoHighlights) do
         pcall(function() hl:Destroy() end)
     end
@@ -1320,7 +1320,7 @@ local function clearSelection()
     -- The callers (Clear button, steal handler) set it themselves
 end
 
-local function moveGhosts(delta)
+function moveGhosts(delta)
     stealOffset = stealOffset + delta
     for g, _ in pairs(ghostParts) do
         if g and g.Parent then
@@ -1330,7 +1330,7 @@ local function moveGhosts(delta)
 end
 
 -- ==================== STANDALONE STEAL MENU ====================
-local StealFrame = Instance.new("Frame")
+StealFrame = Instance.new("Frame")
 StealFrame.Name = "StealFrame"
 StealFrame.Parent = I1IiII1
 StealFrame.BackgroundColor3 = Color3.fromRGB(22, 22, 28)
@@ -1344,22 +1344,22 @@ StealFrame.Visible = false
 Instance.new("UICorner", StealFrame).CornerRadius = UDim.new(0, 10)
 
 -- Title bar
-local STBar = Instance.new("Frame")
+STBar = Instance.new("Frame")
 STBar.Size = UDim2.new(1, 0, 0, 32)
 STBar.BackgroundColor3 = Color3.fromRGB(160, 35, 35)
 STBar.BorderSizePixel = 0
 STBar.Parent = StealFrame
-local stC = Instance.new("UICorner")
+stC = Instance.new("UICorner")
 stC.CornerRadius = UDim.new(0, 10)
 stC.Parent = STBar
-local stFix = Instance.new("Frame")
+stFix = Instance.new("Frame")
 stFix.Size = UDim2.new(1, 0, 0, 12)
 stFix.Position = UDim2.new(0, 0, 1, -12)
 stFix.BackgroundColor3 = Color3.fromRGB(160, 35, 35)
 stFix.BorderSizePixel = 0
 stFix.Parent = STBar
 
-local STTxt = Instance.new("TextLabel")
+STTxt = Instance.new("TextLabel")
 STTxt.Size = UDim2.new(1, -36, 1, 0)
 STTxt.Position = UDim2.new(0, 8, 0, 0)
 STTxt.BackgroundTransparency = 1
@@ -1370,7 +1370,7 @@ STTxt.TextScaled = true
 STTxt.TextXAlignment = Enum.TextXAlignment.Left
 STTxt.Parent = STBar
 
-local STClose = Instance.new("TextButton")
+STClose = Instance.new("TextButton")
 STClose.Size = UDim2.new(0, 28, 0, 28)
 STClose.Position = UDim2.new(1, -30, 0, 2)
 STClose.BackgroundColor3 = Color3.fromRGB(200, 45, 45)
@@ -1388,14 +1388,14 @@ STClose.MouseButton1Click:Connect(function()
 end)
 
 -- Content area
-local SC = Instance.new("Frame")
+SC = Instance.new("Frame")
 SC.Size = UDim2.new(1, -14, 1, -40)
 SC.Position = UDim2.new(0, 7, 0, 36)
 SC.BackgroundTransparency = 1
 SC.Parent = StealFrame
 
 -- Remote status
-local RemoteLbl = Instance.new("TextLabel")
+RemoteLbl = Instance.new("TextLabel")
 RemoteLbl.Size = UDim2.new(1, 0, 0, 16)
 RemoteLbl.Position = UDim2.new(0, 0, 0, 0)
 RemoteLbl.BackgroundTransparency = 1
@@ -1412,7 +1412,7 @@ end
 RemoteLbl.Parent = SC
 
 -- Lasso toggle
-local LassoBtn = Instance.new("TextButton")
+LassoBtn = Instance.new("TextButton")
 LassoBtn.Size = UDim2.new(1, 0, 0, 28)
 LassoBtn.Position = UDim2.new(0, 0, 0, 18)
 LassoBtn.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
@@ -1434,7 +1434,7 @@ LassoBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Selected count
-local SelCountLabel = Instance.new("TextLabel")
+SelCountLabel = Instance.new("TextLabel")
 SelCountLabel.Size = UDim2.new(1, 0, 0, 18)
 SelCountLabel.Position = UDim2.new(0, 0, 0, 48)
 SelCountLabel.BackgroundTransparency = 1
@@ -1446,7 +1446,7 @@ SelCountLabel.TextXAlignment = Enum.TextXAlignment.Left
 SelCountLabel.Parent = SC
 
 -- Step + Clear row
-local StepLbl = Instance.new("TextLabel")
+StepLbl = Instance.new("TextLabel")
 StepLbl.Size = UDim2.new(0.28, 0, 0, 22)
 StepLbl.Position = UDim2.new(0, 0, 0, 68)
 StepLbl.BackgroundTransparency = 1
@@ -1457,7 +1457,7 @@ StepLbl.TextScaled = true
 StepLbl.TextXAlignment = Enum.TextXAlignment.Left
 StepLbl.Parent = SC
 
-local StepBox = Instance.new("TextBox")
+StepBox = Instance.new("TextBox")
 StepBox.Size = UDim2.new(0.25, 0, 0, 22)
 StepBox.Position = UDim2.new(0.28, 0, 0, 68)
 StepBox.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
@@ -1469,7 +1469,7 @@ StepBox.PlaceholderText = "studs"
 Instance.new("UICorner", StepBox).CornerRadius = UDim.new(0, 4)
 StepBox.Parent = SC
 
-local ClearBtn = Instance.new("TextButton")
+ClearBtn = Instance.new("TextButton")
 ClearBtn.Size = UDim2.new(0.25, 0, 0, 22)
 ClearBtn.Position = UDim2.new(0.72, 0, 0, 68)
 ClearBtn.BackgroundColor3 = Color3.fromRGB(150, 40, 40)
@@ -1487,7 +1487,7 @@ ClearBtn.MouseButton1Click:Connect(function()
 end)
 
 -- 6 Arrow buttons (3x2 grid)
-local arrowDefs = {
+arrowDefs = {
     {text = "Fwd (+Z)", dir = Vector3.new(0, 0, 1),  col = 0, row = 0},
     {text = "Back (-Z)", dir = Vector3.new(0, 0, -1), col = 1, row = 0},
     {text = "Left (-X)", dir = Vector3.new(-1, 0, 0), col = 0, row = 1},
@@ -1513,7 +1513,7 @@ for _, def in ipairs(arrowDefs) do
 end
 
 -- Status label
-local StealStatus = Instance.new("TextLabel")
+StealStatus = Instance.new("TextLabel")
 StealStatus.Size = UDim2.new(1, 0, 0, 32)
 StealStatus.Position = UDim2.new(0, 0, 0, 185)
 StealStatus.BackgroundColor3 = Color3.fromRGB(35, 35, 40)
@@ -1526,7 +1526,7 @@ Instance.new("UICorner", StealStatus).CornerRadius = UDim.new(0, 5)
 StealStatus.Parent = SC
 
 -- CORE: Server-side steal using AddObject + MoveObject + PaintObject
-local StealExecBtn = Instance.new("TextButton")
+StealExecBtn = Instance.new("TextButton")
 StealExecBtn.Size = UDim2.new(1, 0, 0, 36)
 StealExecBtn.Position = UDim2.new(0, 0, 0, 222)
 StealExecBtn.BackgroundColor3 = Color3.fromRGB(180, 40, 40)
@@ -1660,7 +1660,7 @@ StealExecBtn.MouseButton1Click:Connect(function()
 end)
 
 -- STEAL ALL IN VIEW (no lasso needed)
-local StealAllBtn = Instance.new("TextButton")
+StealAllBtn = Instance.new("TextButton")
 StealAllBtn.Size = UDim2.new(1, 0, 0, 30)
 StealAllBtn.Position = UDim2.new(0, 0, 0, 262)
 StealAllBtn.BackgroundColor3 = Color3.fromRGB(130, 30, 30)
@@ -1753,7 +1753,7 @@ StealAllBtn.MouseButton1Click:Connect(function()
 end)
 
 -- ==================== BOX LASSO SELECTION ====================
-local LassoBoxFrame = Instance.new("Frame")
+LassoBoxFrame = Instance.new("Frame")
 LassoBoxFrame.Name = "LassoBox"
 LassoBoxFrame.Parent = I1IiII1
 LassoBoxFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 100)
@@ -1763,8 +1763,8 @@ LassoBoxFrame.BorderSizePixel = 2
 LassoBoxFrame.Visible = false
 LassoBoxFrame.ZIndex = 100
 
-local LassoCornerSize = 12
-local corners = {
+LassoCornerSize = 12
+corners = {
     {name = "TL", anchor = {0, 0}, dirX = 1, dirY = 1},
     {name = "TR", anchor = {1, 0}, dirX = -1, dirY = 1},
     {name = "BL", anchor = {0, 1}, dirX = 1, dirY = -1},
@@ -1791,7 +1791,7 @@ for _, c in ipairs(corners) do
     vLine.ZIndex = 101
 end
 
-local LassoInfoLabel = Instance.new("TextLabel")
+LassoInfoLabel = Instance.new("TextLabel")
 LassoInfoLabel.Parent = I1IiII1
 LassoInfoLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 LassoInfoLabel.BackgroundTransparency = 0.3
@@ -1804,7 +1804,7 @@ LassoInfoLabel.Text = ""
 LassoInfoLabel.Visible = false
 LassoInfoLabel.ZIndex = 102
 
-local function updateLassoBox()
+function updateLassoBox()
     local minX = math.min(lassoStartX, lassoEndX)
     local minY = math.min(lassoStartY, lassoEndY)
     local maxX = math.max(lassoStartX, lassoEndX)
@@ -1816,7 +1816,7 @@ local function updateLassoBox()
     LassoInfoLabel.Text = math.floor(w) .. " x " .. math.floor(h) .. " px"
 end
 
-local function pointInRect(px, py)
+function pointInRect(px, py)
     local minX = math.min(lassoStartX, lassoEndX)
     local minY = math.min(lassoStartY, lassoEndY)
     local maxX = math.max(lassoStartX, lassoEndX)
@@ -1824,7 +1824,7 @@ local function pointInRect(px, py)
     return px >= minX and px <= maxX and py >= minY and py <= maxY
 end
 
-local function isPartInLasso(part)
+function isPartInLasso(part)
     local cam = workspace.CurrentCamera
     if not cam then return false end
     local ok, result = pcall(function()
@@ -1844,7 +1844,7 @@ local function isPartInLasso(part)
     return vpX >= lx1 and vpX <= lx2 and vpY >= ly1 and vpY <= ly2
 end
 
-local function selectPartsInLasso()
+function selectPartsInLasso()
     local rectW = math.abs(lassoEndX - lassoStartX)
     local rectH = math.abs(lassoEndY - lassoStartY)
     if rectW < 5 or rectH < 5 then
@@ -1916,7 +1916,7 @@ end
 -- ==================== END LASSO SELECTION ====================
 
 -- Steal Obby button on main panel
-local StealOpenBtn = Instance.new("TextButton")
+StealOpenBtn = Instance.new("TextButton")
 StealOpenBtn.Name = "StealOpenBtn"
 StealOpenBtn.Parent = MainFrame
 StealOpenBtn.BackgroundColor3 = Color3.fromRGB(150, 40, 40)
@@ -1942,9 +1942,9 @@ StealOpenBtn.MouseButton1Click:Connect(function()
 end)
 
 -- Lasso input handlers
-local lassoMouse = game:GetService("Players").LocalPlayer:GetMouse()
+lassoMouse = game:GetService("Players").LocalPlayer:GetMouse()
 
-local function isOverStealUI()
+function isOverStealUI()
     if StealFrame.Visible == false then return false end
     local mp = uis:GetMouseLocation()
     local sp = StealFrame.AbsolutePosition
@@ -2023,7 +2023,7 @@ if not ok then
 end
 
 -- ==================== INSPECTOR (FIXED - direct remote calls) ====================
-local InspectorFrame = Instance.new("Frame")
+InspectorFrame = Instance.new("Frame")
 InspectorFrame.Name = "InspectorFrame"
 InspectorFrame.Parent = I1IiII1
 InspectorFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -2035,7 +2035,7 @@ InspectorFrame.Active = true
 InspectorFrame.Visible = false
 Instance.new("UICorner", InspectorFrame).CornerRadius = UDim.new(0, 10)
 
-local InspectTitle = Instance.new("TextLabel")
+InspectTitle = Instance.new("TextLabel")
 InspectTitle.Parent = InspectorFrame
 InspectTitle.Size = UDim2.new(1, -30, 0, 30)
 InspectTitle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
@@ -2045,7 +2045,7 @@ InspectTitle.Text = "Inspecting: None"
 InspectTitle.TextScaled = true
 Instance.new("UICorner", InspectTitle).CornerRadius = UDim.new(0, 10)
 
-local InspectClose = Instance.new("TextButton")
+InspectClose = Instance.new("TextButton")
 InspectClose.Parent = InspectorFrame
 InspectClose.Size = UDim2.new(0, 30, 0, 30)
 InspectClose.Position = UDim2.new(1, -30, 0, 0)
@@ -2057,7 +2057,7 @@ InspectClose.TextScaled = true
 Instance.new("UICorner", InspectClose).CornerRadius = UDim.new(0, 10)
 InspectClose.MouseButton1Click:Connect(function() InspectorFrame.Visible = false end)
 
-local InspectScroll = Instance.new("ScrollingFrame")
+InspectScroll = Instance.new("ScrollingFrame")
 InspectScroll.Parent = InspectorFrame
 InspectScroll.Size = UDim2.new(1, -10, 1, -40)
 InspectScroll.Position = UDim2.new(0, 5, 0, 35)
@@ -2066,15 +2066,359 @@ InspectScroll.ScrollBarThickness = 6
 InspectScroll.ScrollBarImageColor3 = Color3.fromRGB(100, 100, 100)
 InspectScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
 InspectScroll.AutomaticCanvasSize = Enum.AutomaticSize.Y
-local InspectLayout = Instance.new("UIListLayout")
+InspectLayout = Instance.new("UIListLayout")
 InspectLayout.Parent = InspectScroll
 InspectLayout.Padding = UDim.new(0, 5)
 
-local selectedPartRef = nil
-local persistentOverrides = {}
-local forceOverrideEnabled = true
+selectedPartRef = nil
+persistentOverrides = {}
+forceOverrideEnabled = true
 
-local function addInspectorRow(propName, defaultVal, valType)
+-- Multi-part rainbow state (shared across inspector opens)
+rbPartsNeeded = 0
+rbPartsCollected = {}
+rbCollecting = false
+rbPartContainer = nil
+rbStatusLbl = nil
+rbNeededBox = nil
+rbUncapRefs = {propBox = nil, stringMode = false} -- filled by openInspector
+
+-- Modal prompt: asks the user a question, returns their answer via callback.
+-- Uses its OWN ScreenGui with a very high DisplayOrder so the prompt always
+-- renders on top of every other UI element in the game (including the main panel).
+rbPromptOpen = false  -- guard so only one prompt is on screen at a time
+rbPromptGui = nil     -- ref to the dedicated ScreenGui (cleaned up on close)
+function showRbPrompt(title, placeholder, defaultText, callback)
+    if rbPromptOpen then return end
+    rbPromptOpen = true
+
+    -- Clean up any stale prompt gui first.
+    if rbPromptGui then pcall(function() rbPromptGui:Destroy() end) end
+
+    -- Dedicated ScreenGui with very high DisplayOrder -> always on top.
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "RbPromptGui"
+    gui.DisplayOrder = 999999
+    gui.ResetOnSpawn = false
+    gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    gui.IgnoreGuiInset = true
+    gui.Parent = game:GetService("CoreGui")
+    rbPromptGui = gui
+
+    -- Frame overlay (NOT a TextButton so it doesn't steal focus/clicks).
+    local overlay = Instance.new("Frame")
+    overlay.Name = "RbPromptOverlay"
+    overlay.Size = UDim2.new(1, 0, 1, 0)
+    overlay.BackgroundColor3 = Color3.new(0, 0, 0)
+    overlay.BackgroundTransparency = 0.4
+    overlay.BorderSizePixel = 0
+    overlay.ZIndex = 100
+    overlay.Parent = gui
+
+    local panel = Instance.new("Frame")
+    panel.Name = "RbPromptPanel"
+    panel.Size = UDim2.new(0, 380, 0, 170)
+    panel.Position = UDim2.new(0.5, -190, 0.5, -85)
+    panel.BackgroundColor3 = Color3.fromRGB(28, 28, 36)
+    panel.BorderSizePixel = 0
+    panel.ZIndex = 101
+    panel.Parent = overlay
+    Instance.new("UICorner", panel).CornerRadius = UDim.new(0, 8)
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(180, 50, 180)
+    stroke.Thickness = 2
+    stroke.Parent = panel
+
+    local ttl = Instance.new("TextLabel")
+    ttl.Size = UDim2.new(1, -20, 0, 36)
+    ttl.Position = UDim2.new(0, 10, 0, 10)
+    ttl.BackgroundTransparency = 1
+    ttl.Text = title or "Enter value"
+    ttl.TextColor3 = Color3.fromRGB(255, 200, 255)
+    ttl.Font = Enum.Font.GothamBold
+    ttl.TextScaled = true
+    ttl.ZIndex = 102
+    ttl.Parent = panel
+
+    local box = Instance.new("TextBox")
+    box.Size = UDim2.new(1, -20, 0, 42)
+    box.Position = UDim2.new(0, 10, 0, 54)
+    box.BackgroundColor3 = Color3.fromRGB(15, 15, 22)
+    box.TextColor3 = Color3.new(1, 1, 1)
+    box.PlaceholderText = placeholder or ""
+    box.PlaceholderColor3 = Color3.fromRGB(120, 120, 130)
+    box.Text = defaultText or ""
+    box.Font = Enum.Font.Gotham
+    box.TextScaled = true
+    box.ClearTextOnFocus = false
+    box.ZIndex = 102
+    box.Parent = panel
+    Instance.new("UICorner", box).CornerRadius = UDim.new(0, 6)
+
+    local okBtn = Instance.new("TextButton")
+    okBtn.Size = UDim2.new(0.5, -12, 0, 34)
+    okBtn.Position = UDim2.new(0, 10, 1, -42)
+    okBtn.BackgroundColor3 = Color3.fromRGB(120, 30, 160)
+    okBtn.Text = "OK"
+    okBtn.TextColor3 = Color3.new(1, 1, 1)
+    okBtn.Font = Enum.Font.GothamBold
+    okBtn.TextScaled = true
+    okBtn.ZIndex = 102
+    okBtn.Parent = panel
+    Instance.new("UICorner", okBtn).CornerRadius = UDim.new(0, 6)
+
+    local cancelBtn = Instance.new("TextButton")
+    cancelBtn.Size = UDim2.new(0.5, -12, 0, 34)
+    cancelBtn.Position = UDim2.new(0.5, 2, 1, -42)
+    cancelBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 70)
+    cancelBtn.Text = "Cancel"
+    cancelBtn.TextColor3 = Color3.new(1, 1, 1)
+    cancelBtn.Font = Enum.Font.GothamBold
+    cancelBtn.TextScaled = true
+    cancelBtn.ZIndex = 102
+    cancelBtn.Parent = panel
+    Instance.new("UICorner", cancelBtn).CornerRadius = UDim.new(0, 6)
+
+    local function close(result)
+        rbPromptOpen = false
+        if rbPromptGui then
+            pcall(function() rbPromptGui:Destroy() end)
+            rbPromptGui = nil
+        end
+        if callback then callback(result) end
+    end
+
+    local function submit()
+        local txt = box.Text
+        if txt and #txt > 0 then
+            close(txt)
+        else
+            close(nil)
+        end
+    end
+
+    okBtn.MouseButton1Click:Connect(submit)
+    cancelBtn.MouseButton1Click:Connect(function() close(nil) end)
+    box.FocusLost:Connect(function(enterPressed)
+        -- Only auto-close on Enter; clicking elsewhere just defocuses without closing.
+        if enterPressed then submit() end
+    end)
+
+    -- Focus the textbox on the next frame so the prompt is fully rendered first.
+    task.delay(0.05, function()
+        pcall(function() box:CaptureFocus() end)
+    end)
+end
+
+function stopRbCollecting()
+    rbCollecting = false
+    rbPartsCollected = {}
+end
+
+function buildMultiPartRainbow(scroll)
+    local hdr = Instance.new("TextLabel")
+    hdr.Size = UDim2.new(1, 0, 0, 22)
+    hdr.BackgroundTransparency = 1
+    hdr.Text = "== Multi-Part Rainbow =="
+    hdr.TextColor3 = Color3.fromRGB(0, 200, 255)
+    hdr.Font = Enum.Font.GothamBold
+    hdr.TextScaled = true
+    hdr.Parent = scroll
+
+    local row = Instance.new("Frame")
+    row.Size = UDim2.new(1, 0, 0, 28)
+    row.BackgroundColor3 = Color3.fromRGB(20, 30, 50)
+    row.Parent = scroll
+    Instance.new("UICorner", row).CornerRadius = UDim.new(0, 5)
+
+    local cLbl = Instance.new("TextLabel")
+    cLbl.Size = UDim2.new(0.15, 0, 1, 0)
+    cLbl.BackgroundTransparency = 1
+    cLbl.Text = "Count"
+    cLbl.TextColor3 = Color3.fromRGB(0, 200, 255)
+    cLbl.Font = Enum.Font.GothamBold
+    cLbl.TextScaled = true
+    cLbl.TextXAlignment = Enum.TextXAlignment.Left
+    cLbl.Parent = row
+
+    local cBox = Instance.new("TextBox")
+    cBox.Size = UDim2.new(0.15, 0, 0.7, 0)
+    cBox.Position = UDim2.new(0.15, 0, 0.15, 0)
+    cBox.BackgroundColor3 = Color3.fromRGB(15, 20, 35)
+    cBox.TextColor3 = Color3.new(1, 1, 1)
+    cBox.PlaceholderText = "3"
+    cBox.Text = "3"
+    cBox.Font = Enum.Font.Gotham
+    cBox.TextScaled = true
+    cBox.Parent = row
+    Instance.new("UICorner", cBox).CornerRadius = UDim.new(0, 4)
+    rbNeededBox = cBox
+
+    local sBtn = Instance.new("TextButton")
+    sBtn.Size = UDim2.new(0.2, -2, 0.7, 0)
+    sBtn.Position = UDim2.new(0.31, 0, 0.15, 0)
+    sBtn.BackgroundColor3 = Color3.fromRGB(0, 120, 0)
+    sBtn.Text = "START"
+    sBtn.TextColor3 = Color3.new(1, 1, 1)
+    sBtn.Font = Enum.Font.GothamBold
+    sBtn.TextScaled = true
+    sBtn.Parent = row
+    Instance.new("UICorner", sBtn).CornerRadius = UDim.new(0, 4)
+
+    local xBtn = Instance.new("TextButton")
+    xBtn.Size = UDim2.new(0.2, -2, 0.7, 0)
+    xBtn.Position = UDim2.new(0.52, 0, 0.15, 0)
+    xBtn.BackgroundColor3 = Color3.fromRGB(150, 30, 30)
+    xBtn.Text = "STOP"
+    xBtn.TextColor3 = Color3.new(1, 1, 1)
+    xBtn.Font = Enum.Font.GothamBold
+    xBtn.TextScaled = true
+    xBtn.Parent = row
+    Instance.new("UICorner", xBtn).CornerRadius = UDim.new(0, 4)
+
+    local rBtn = Instance.new("TextButton")
+    rBtn.Size = UDim2.new(0.27, -2, 0.7, 0)
+    rBtn.Position = UDim2.new(0.73, 0, 0.15, 0)
+    rBtn.BackgroundColor3 = Color3.fromRGB(180, 0, 180)
+    rBtn.Text = "RAINBOW"
+    rBtn.TextColor3 = Color3.new(1, 1, 1)
+    rBtn.Font = Enum.Font.GothamBold
+    rBtn.TextScaled = true
+    rBtn.Parent = row
+    Instance.new("UICorner", rBtn).CornerRadius = UDim.new(0, 4)
+
+    local stLbl = Instance.new("TextLabel")
+    stLbl.Size = UDim2.new(1, 0, 0, 18)
+    stLbl.BackgroundTransparency = 1
+    stLbl.Text = "No parts selected"
+    stLbl.TextColor3 = Color3.fromRGB(150, 150, 150)
+    stLbl.Font = Enum.Font.Gotham
+    stLbl.TextScaled = true
+    stLbl.Parent = scroll
+    rbStatusLbl = stLbl
+
+    local scrl = Instance.new("ScrollingFrame")
+    scrl.Size = UDim2.new(1, 0, 0, 0)
+    scrl.BackgroundTransparency = 1
+    scrl.ScrollBarThickness = 4
+    scrl.AutomaticCanvasSize = Enum.AutomaticSize.Y
+    scrl.CanvasSize = UDim2.new(0, 0, 0, 0)
+    scrl.Parent = scroll
+    Instance.new("UIListLayout", scrl).Padding = UDim.new(0, 2)
+    rbPartContainer = scrl
+
+    sBtn.MouseButton1Click:Connect(function()
+        local count = tonumber(cBox.Text)
+        if not count or count < 1 then
+            pcall(function() customOutput("[RAINBOW] Enter a valid count!", Color3.new(1, 0, 0)) end)
+            return
+        end
+        rbPartsNeeded = count
+        rbPartsCollected = {}
+        rbCollecting = true
+        for _, ch in ipairs(scrl:GetChildren()) do
+            if ch:IsA("Frame") then ch:Destroy() end
+        end
+        stLbl.Text = "Click " .. count .. " parts... (0 / " .. count .. ")"
+        stLbl.TextColor3 = Color3.fromRGB(255, 255, 0)
+        pcall(function() customOutput("[RAINBOW] Click " .. count .. " parts", Color3.fromRGB(0, 200, 255)) end)
+    end)
+
+    xBtn.MouseButton1Click:Connect(function()
+        stopRbCollecting()
+        stLbl.Text = "Stopped. " .. #rbPartsCollected .. " parts"
+        stLbl.TextColor3 = Color3.fromRGB(255, 100, 100)
+    end)
+
+    rBtn.MouseButton1Click:Connect(function()
+        if #rbPartsCollected == 0 then
+            pcall(function() customOutput("[RAINBOW] No parts! Hit START first", Color3.new(1, 0, 0)) end)
+            return
+        end
+        -- Use the SAME property + send-mode the UNCAP ONCE button uses.
+        -- The property comes from the existing Property box (rbUncapRefs.propBox);
+        -- we do NOT prompt for it. We only prompt for the per-part values.
+        local pb = rbUncapRefs.propBox
+        local propName = pb and pb.Text or ""
+        if propName == "" then
+            pcall(function() customOutput("[RAINBOW] Fill in Property box first (same one UNCAP ONCE uses)", Color3.new(1, 0, 0)) end)
+            if rbStatusLbl then
+                rbStatusLbl.Text = "Fill Property box first!"
+                rbStatusLbl.TextColor3 = Color3.fromRGB(255, 100, 100)
+            end
+            return
+        end
+        local sm = rbUncapRefs.stringMode  -- matches the NUMBER/STRING toggle
+
+        -- Ask the user for ONE value per part (comma or space separated).
+        showRbPrompt(
+            "RAINBOW: values for " .. #rbPartsCollected .. " parts (prop = " .. propName .. ")",
+            "e.g. 10, 999, 50  (one value per part)",
+            "",
+            function(valuesStr)
+                if not valuesStr or valuesStr == "" then
+                    pcall(function() customOutput("[RAINBOW] Cancelled - no values entered", Color3.fromRGB(255, 100, 100)) end)
+                    if rbStatusLbl then
+                        rbStatusLbl.Text = "Cancelled"
+                        rbStatusLbl.TextColor3 = Color3.fromRGB(255, 100, 100)
+                    end
+                    return
+                end
+                -- Parse values: split on commas or whitespace.
+                local values = {}
+                for v in valuesStr:gmatch("[^,%s]+") do
+                    table.insert(values, v)
+                end
+                pcall(function() customOutput("[RAINBOW] Applying " .. propName .. " to " .. #rbPartsCollected .. " parts (" .. #values .. " values, " .. (sm and "STRING" or "NUMBER") .. " mode)...", Color3.fromRGB(255, 100, 200)) end)
+                if rbStatusLbl then
+                    rbStatusLbl.Text = "Applying " .. propName .. " to " .. #rbPartsCollected .. " parts..."
+                    rbStatusLbl.TextColor3 = Color3.fromRGB(255, 200, 100)
+                end
+
+                spawn(function()
+                    local applied = 0
+                    for i, e in ipairs(rbPartsCollected) do
+                        local rawVal = values[i]
+                        local p = e.part
+                        if not rawVal then
+                            pcall(function() customOutput("[RAINBOW] P" .. i .. " no value (only " .. #values .. " provided)", Color3.new(1, 0.5, 0)) end)
+                        elseif not p or not p.Parent then
+                            pcall(function() customOutput("[RAINBOW] P" .. i .. " gone!", Color3.new(1, 0, 0)) end)
+                        else
+                            -- ===== SAME logic as UNCAP ONCE button (line ~3788) =====
+                            local typedVal = tonumber(rawVal)
+                            if not typedVal then typedVal = rawVal end
+                            local hMode, _ = getPartType(p, propName)
+                            local valObj = findValueObjectDeep(p, propName)
+                            local sendVal = typedVal
+                            local sendType = "NumberValue"
+                            if sm then
+                                sendVal = rawVal
+                                sendType = "StringValue"
+                            end
+                            tryUncapValue(p, propName, sendVal, rawVal, sendType, valObj, hMode)
+                            -- =================================================
+                            applied = applied + 1
+                            if rbStatusLbl then
+                                rbStatusLbl.Text = "Applying... " .. applied .. " / " .. #rbPartsCollected
+                            end
+                            pcall(function() customOutput("[RAINBOW] P" .. i .. " " .. p.Name .. "." .. propName .. " = " .. rawVal, Color3.fromRGB(0, 255, 200)) end)
+                            task.wait(0.3)
+                        end
+                    end
+                    if rbStatusLbl then
+                        rbStatusLbl.Text = "Done! " .. applied .. " parts on '" .. propName .. "'"
+                        rbStatusLbl.TextColor3 = Color3.fromRGB(0, 255, 100)
+                    end
+                    pcall(function() customOutput("[RAINBOW] Done! " .. applied .. " parts on '" .. propName .. "'", Color3.fromRGB(0, 255, 100)) end)
+                end)
+            end
+        )
+    end)
+end
+
+function addInspectorRow(propName, defaultVal, valType)
     local row = Instance.new("Frame")
     row.Size = UDim2.new(1, 0, 0, 28)
     row.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
@@ -2194,13 +2538,13 @@ local function addInspectorRow(propName, defaultVal, valType)
     end)
 end
 
-local function stripValSuffix(name)
+function stripValSuffix(name)
     local s = name:gsub("Val$", "")
     s = s:gsub("Value$", "")
     return s
 end
 
-local function sendATTStep3(bhvr, part, handlerMode, propName)
+function sendATTStep3(bhvr, part, handlerMode, propName)
     pcall(function()
         bhvr:InvokeServer({part}, handlerMode, propName)
     end)
@@ -2219,14 +2563,14 @@ end
 -- Map GPT property names to their Options category (from RemoteSpy logs)
 -- Default is "Options-Fly" (the universal GPT selector)
 -- Only override for properties that use a different category
-local gptOptionMap = {
+gptOptionMap = {
     ["CameraMaxZoom"] = "Camera-MaxZoom",
     ["Camera Max Zoom"] = "Camera-MaxZoom",
     ["Camera-MaxZoom"] = "Camera-MaxZoom",
     ["MaxZoom"] = "Camera-MaxZoom",
 }
 
-local function getGPTCategory(propName)
+function getGPTCategory(propName)
     -- Try direct match first
     if gptOptionMap[propName] then return gptOptionMap[propName] end
     -- Strip Val/Value suffix and try again
@@ -2236,7 +2580,7 @@ local function getGPTCategory(propName)
     return "Options-Fly"
 end
 
-local propMap = {
+propMap = {
     ["Speed"] = "S", ["Damage"] = "D", ["Button Time"] = "BT",
     ["Time"] = "BT", ["Click Radius"] = "Cd", ["Click radius"] = "Cd",
     ["Fade time"] = "F", ["Fading time"] = "F",
@@ -2262,7 +2606,7 @@ local propMap = {
     ["Light Face"] = "LF",
 }
 
-local function getValueType(v)
+function getValueType(v)
     if v:IsA("NumberValue") or v:IsA("IntValue") or v:IsA("FloatValue") then return "NumberValue"
     elseif v:IsA("StringValue") then return "StringValue"
     elseif v:IsA("BoolValue") then return "BoolValue"
@@ -2272,7 +2616,7 @@ local function getValueType(v)
     else return "StringValue" end
 end
 
-local function getValueString(v)
+function getValueString(v)
     pcall(function()
         if v:IsA("Color3Value") then
             local c = v.Value
@@ -2289,7 +2633,7 @@ local function getValueString(v)
     return tostring(v.Value)
 end
 
-local function applyValueToObject(v, rawStr, valType)
+function applyValueToObject(v, rawStr, valType)
     pcall(function()
         if valType == "NumberValue" then
             local n = tonumber(rawStr)
@@ -2309,7 +2653,7 @@ local function applyValueToObject(v, rawStr, valType)
     end)
 end
 
-local function getPartType(part, propName)
+function getPartType(part, propName)
     if not part then return "Nothing", false end
     local pName = part.Name
     local isATT = (pName == "Advanced Tools Part" or pName == "Advanced Part")
@@ -2327,7 +2671,7 @@ local function getPartType(part, propName)
     return "Nothing", false
 end
 
-local overrideLoopRunning = true
+overrideLoopRunning = true
 coroutine.resume(coroutine.create(function()
     while overrideLoopRunning and wait(2) do
         for i = #persistentOverrides, 1, -1 do
@@ -2343,7 +2687,7 @@ coroutine.resume(coroutine.create(function()
     end
 end))
 
-local function setPartProperty(part, propName, typedVal, rawStr, valType, valObj)
+function setPartProperty(part, propName, typedVal, rawStr, valType, valObj)
     if valObj then
         pcall(function() applyValueToObject(valObj, rawStr, valType) end)
     end
@@ -2415,13 +2759,13 @@ end
 
 -- ==================== UNCAPPING BYPASS SYSTEM ====================
 
-local uncapLoopRunning = false
-local uncapTarget = nil
+uncapLoopRunning = false
+uncapTarget = nil
 
 -- ==================== PERMANENT ATT LOCK SYSTEM ====================
-local attLocks = {}
+attLocks = {}
 
-local function startPermanentATTLock(part, propName, desiredVal, rawStr, valType, valObj, handlerMode)
+function startPermanentATTLock(part, propName, desiredVal, rawStr, valType, valObj, handlerMode)
     for i = 1, #attLocks do
         if attLocks[i].part == part and attLocks[i].propName == propName and attLocks[i].running then
             attLocks[i].desiredVal = desiredVal
@@ -2513,14 +2857,14 @@ local function startPermanentATTLock(part, propName, desiredVal, rawStr, valType
     end)
 end
 
-local function stopAllATTLocks()
+function stopAllATTLocks()
     for i = 1, #attLocks do
         attLocks[i].running = false
     end
     attLocks = {}
 end
 
-local function stopATTLock(part, propName)
+function stopATTLock(part, propName)
     for i = #attLocks, 1, -1 do
         if attLocks[i].part == part and attLocks[i].propName == propName then
             attLocks[i].running = false
@@ -2529,7 +2873,7 @@ local function stopATTLock(part, propName)
     end
 end
 
-local function findValueObjectDeep(parent, targetName)
+function findValueObjectDeep(parent, targetName)
     local result = nil
     pcall(function()
         local kids = parent:GetChildren()
@@ -2556,7 +2900,7 @@ local function findValueObjectDeep(parent, targetName)
     return result
 end
 
-local function tryDirectChildEdit(part, propName, desiredVal, rawStr, valType)
+function tryDirectChildEdit(part, propName, desiredVal, rawStr, valType)
     local found = false
     pcall(function()
         local kids = part:GetChildren()
@@ -2607,7 +2951,7 @@ local function tryDirectChildEdit(part, propName, desiredVal, rawStr, valType)
     return found
 end
 
-local function tryEditDefaultNumberValue(part, desiredVal)
+function tryEditDefaultNumberValue(part, desiredVal)
     local found = false
     pcall(function()
         local dnv = part:FindFirstChild("DefaultNumberValue")
@@ -2624,7 +2968,7 @@ local function tryEditDefaultNumberValue(part, desiredVal)
     return found
 end
 
-local function tryRapidFire(part, handlerMode, propName, desiredVal, count)
+function tryRapidFire(part, handlerMode, propName, desiredVal, count)
     local cat = "Skybox"
     if handlerMode == "GPT" then cat = getGPTCategory(propName)
     elseif handlerMode == "ATT" then cat = propName end
@@ -2643,7 +2987,7 @@ local function tryRapidFire(part, handlerMode, propName, desiredVal, count)
     return hits
 end
 
-local function tryStringBypass(part, handlerMode, propName, desiredVal, rawStr)
+function tryStringBypass(part, handlerMode, propName, desiredVal, rawStr)
     local cat = "Skybox"
     if handlerMode == "GPT" then cat = getGPTCategory(propName)
     elseif handlerMode == "ATT" then cat = propName end
@@ -2661,7 +3005,7 @@ local function tryStringBypass(part, handlerMode, propName, desiredVal, rawStr)
     return ok
 end
 
-local function tryUncapValue(part, propName, desiredVal, rawStr, valType, valObj, handlerMode)
+function tryUncapValue(part, propName, desiredVal, rawStr, valType, valObj, handlerMode)
     pcall(function()
         customOutput(
             "[UNCAP] Starting bypass for " .. propName .. " = " .. tostring(desiredVal) .. " (" .. handlerMode .. ")", Color3.fromRGB(255, 165, 0)
@@ -2855,9 +3199,9 @@ end
 
 -- ==================== CLONE LOCK BYPASS ====================
 
-local lastClonedPartRef = nil
+lastClonedPartRef = nil
 
-local function tryCloneLock(part, propName, desiredVal, rawStr, valType, handlerMode, valObj, gravityMode)
+function tryCloneLock(part, propName, desiredVal, rawStr, valType, handlerMode, valObj, gravityMode)
     pcall(function()
         customOutput(
             "[CLONE] Attempting clone lock for " .. propName .. " (gravity=" .. tostring(gravityMode) .. ")", Color3.fromRGB(0, 200, 255)
@@ -3038,7 +3382,7 @@ local function tryCloneLock(part, propName, desiredVal, rawStr, valType, handler
     return clone
 end
 
-local function startUncapLoop()
+function startUncapLoop()
     if uncapLoopRunning then return end
     if not uncapTarget then return end
     uncapLoopRunning = true
@@ -3137,7 +3481,7 @@ local function startUncapLoop()
     end))
 end
 
-local function scanPartValues(part)
+function scanPartValues(part)
     local found = {}
     local scanned = {}
 
@@ -3235,7 +3579,7 @@ local function scanPartValues(part)
 end
 
 
-local function openInspector(part)
+function openInspector(part)
     selectedPartRef = part
     InspectorFrame.Visible = true
     InspectTitle.Text = "Inspect: " .. part.Name
@@ -3319,6 +3663,8 @@ local function openInspector(part)
     typeInfo.Name = "PartTypeInfo"
     typeInfo.Parent = InspectScroll
 
+    buildMultiPartRainbow(InspectScroll)
+
     local uncapHeader = Instance.new("TextLabel")
     uncapHeader.Size = UDim2.new(1, 0, 0, 22)
     uncapHeader.BackgroundTransparency = 1
@@ -3355,6 +3701,7 @@ local function openInspector(part)
     uncapPropBox.Name = "UncapPropBox"
     uncapPropBox.Parent = uncapRow1
     Instance.new("UICorner", uncapPropBox).CornerRadius = UDim.new(0, 4)
+    rbUncapRefs.propBox = uncapPropBox
 
     local uncapRow2 = Instance.new("Frame")
     uncapRow2.Size = UDim2.new(1, 0, 0, 26)
@@ -3425,6 +3772,7 @@ local function openInspector(part)
 
     uncapNumBtn.MouseButton1Click:Connect(function()
         uncapStringMode = false
+        rbUncapRefs.stringMode = false
         uncapNumBtn.BackgroundColor3 = Color3.fromRGB(0, 150, 0)
         uncapNumBtn.TextColor3 = Color3.new(1, 1, 1)
         uncapStrBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -3433,6 +3781,7 @@ local function openInspector(part)
 
     uncapStrBtn.MouseButton1Click:Connect(function()
         uncapStringMode = true
+        rbUncapRefs.stringMode = true
         uncapStrBtn.BackgroundColor3 = Color3.fromRGB(0, 100, 200)
         uncapStrBtn.TextColor3 = Color3.new(1, 1, 1)
         uncapNumBtn.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -3621,6 +3970,11 @@ local function openInspector(part)
         {"Ambient",                "lighting",     "Ambient"},
         {"Outdoor Ambient",       "lighting",     "OutdoorAmbient"},
         {"ColorShift Top",        "lighting",     "ColorShiftTop"},
+        -- ===== COMBINED EFFECT + UNCAP (non-color, raw string value) =====
+        -- Sends EffectObject:InvokeServer({part}, "prompt", "KeyboardKeyCode", value)
+        -- AND tryUncapValue(part, "KeyboardKeyCode", value, ...) for cap bypass.
+        -- Value is a raw string like "P", "E", "Space", "Enter".
+        {"Prompt Key",            "prompt",       "KeyboardKeyCode"},
     }
 
     local function applyQuickColor(def, colorText)
@@ -3628,6 +3982,42 @@ local function openInspector(part)
             pcall(function() customOutput("No part selected!", Color3.new(1, 0, 0)) end)
             return
         end
+        local effectType = def[2]
+        local serverProp = def[3]
+        local extraArg = def[4]
+
+        -- ===== PROMPT / VALUE EFFECT (raw string value, NOT a color) =====
+        -- Combined: EffectObject method + UNCAP method, both fired.
+        if effectType == "prompt" then
+            if colorText == "" then
+                pcall(function() customOutput("[PROMPT] Type a key code (e.g. P, E, Space, Enter)", Color3.new(1, 0, 0)) end)
+                return
+            end
+            -- 1) EFFECT METHOD: EffectObject:InvokeServer({part}, "prompt", "KeyboardKeyCode", value)
+            --    (matches the RemoteSpy dump exactly)
+            pcall(function()
+                game:GetService("ReplicatedStorage").Events.EffectObject:InvokeServer(
+                    {selectedPartRef},
+                    effectType,
+                    serverProp,
+                    colorText  -- raw string value, e.g. "P"
+                )
+                customOutput("[PROMPT-FX] " .. serverProp .. " = " .. colorText, Color3.fromRGB(0, 255, 200))
+            end)
+            -- 2) UNCAP METHOD: tryUncapValue to bypass any caps (same call UNCAP ONCE uses)
+            spawn(function()
+                local typedVal = tonumber(colorText)
+                if not typedVal then typedVal = colorText end
+                local hMode, _ = getPartType(selectedPartRef, serverProp)
+                local valObj = findValueObjectDeep(selectedPartRef, serverProp)
+                -- Keyboard codes are strings -> send as StringValue
+                tryUncapValue(selectedPartRef, serverProp, colorText, colorText, "StringValue", valObj, hMode)
+                pcall(function() customOutput("[PROMPT-UNCAP] " .. serverProp .. " = " .. colorText .. " (bypass sent)", Color3.fromRGB(255, 200, 50)) end)
+            end)
+            return
+        end
+
+        -- ===== COLOR EFFECTS (existing logic) =====
         -- Parse "R,G,B" from textbox
         local vals = {}
         for num in string.gmatch(colorText, "(-?%d+%.?%d*)") do
@@ -3641,9 +4031,6 @@ local function openInspector(part)
         local g = vals[2] / 255
         local b = vals[3] / 255
         local color = Color3.new(r, g, b)
-        local effectType = def[2]
-        local serverProp = def[3]
-        local extraArg = def[4]
         pcall(function()
             if effectType == "gear" then
                 -- BehaviourObject 4-arg pattern: {part}, "DefaultColor3Value", color, "Color"
@@ -3857,7 +4244,8 @@ local function openInspector(part)
         box.Position = UDim2.new(0.26, 0, 0.15, 0)
         box.BackgroundColor3 = Color3.fromRGB(15, 20, 35)
         box.TextColor3 = Color3.new(1, 1, 1)
-        box.PlaceholderText = "R,G,B"
+        -- Prompt effects take a raw string value (e.g. a keyboard key), not R,G,B.
+        box.PlaceholderText = (def[2] == "prompt") and "Key (e.g. P)" or "R,G,B"
         box.Text = ""
         box.Font = Enum.Font.Gotham
         box.TextScaled = true
@@ -5806,7 +6194,7 @@ local function openInspector(part)
 end
 
 -- ==================== DUMP FUNCTION ====================
-local function dumpPartData(part)
+function dumpPartData(part)
     if not part or not part.Parent then
         customOutput("[DUMP] No part selected! Click Select first, then click a part.", Color3.fromRGB(255, 80, 80))
         return
@@ -5929,8 +6317,8 @@ local function dumpPartData(part)
 end
 
 -- Part selection logic
-local selectMode = false
-local mouse = game.Players.LocalPlayer:GetMouse()
+selectMode = false
+mouse = game.Players.LocalPlayer:GetMouse()
 
 SelectButton.MouseButton1Click:Connect(function()
     selectMode = not selectMode
@@ -5949,8 +6337,64 @@ DumpButton.MouseButton1Click:Connect(function()
 end)
 
 uis.InputBegan:Connect(function(input, gameProcessed)
-    if gameProcessed then return end
     if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        -- Multi-part rainbow collection mode (skip gameProcessed check so clicking 3D parts works while GUI is open)
+        if rbCollecting then
+            local target = mouse.Target
+            if target and target:IsA("BasePart") then
+                -- Don't allow duplicate parts
+                for _, p in ipairs(rbPartsCollected) do
+                    if p.part == target then return end
+                end
+                local idx = #rbPartsCollected + 1
+                table.insert(rbPartsCollected, {part = target, valBox = nil})
+                -- Create part button + value box in the container
+                if rbPartContainer then
+                    local row = Instance.new("Frame")
+                    row.Size = UDim2.new(1, 0, 0, 24)
+                    row.BackgroundTransparency = 1
+                    row.Parent = rbPartContainer
+
+                    local lbl = Instance.new("TextLabel")
+                    lbl.Size = UDim2.new(0.22, 0, 1, 0)
+                    lbl.BackgroundTransparency = 1
+                    lbl.Text = "P" .. idx
+                    lbl.TextColor3 = Color3.fromRGB(0, 200, 255)
+                    lbl.Font = Enum.Font.GothamBold
+                    lbl.TextScaled = true
+                    lbl.TextXAlignment = Enum.TextXAlignment.Left
+                    lbl.Parent = row
+
+                    local vBox = Instance.new("TextBox")
+                    vBox.Size = UDim2.new(0.55, 0, 0.75, 0)
+                    vBox.Position = UDim2.new(0.22, 0, 0.125, 0)
+                    vBox.BackgroundColor3 = Color3.fromRGB(20, 20, 30)
+                    vBox.TextColor3 = Color3.new(1, 1, 1)
+                    vBox.PlaceholderText = "value"
+                    vBox.Text = ""
+                    vBox.Font = Enum.Font.Gotham
+                    vBox.TextScaled = true
+                    vBox.Parent = row
+                    Instance.new("UICorner", vBox).CornerRadius = UDim.new(0, 3)
+
+                    rbPartsCollected[idx].valBox = vBox
+                end
+                -- Update status
+                if rbStatusLbl then
+                    rbStatusLbl.Text = "Selecting: " .. #rbPartsCollected .. " / " .. rbPartsNeeded
+                end
+                -- Done collecting
+                if #rbPartsCollected >= rbPartsNeeded then
+                    rbCollecting = false
+                    if rbStatusLbl then
+                        rbStatusLbl.Text = "Ready! " .. rbPartsNeeded .. " parts selected"
+                        rbStatusLbl.TextColor3 = Color3.fromRGB(0, 255, 100)
+                    end
+                end
+            end
+            return
+        end
+        if gameProcessed then return end
         if selectMode then
             local target = mouse.Target
             if target and target:IsA("BasePart") then
@@ -6015,7 +6459,7 @@ CreditsOpen.MouseButton1Click:Connect(function()
 end)
 
 
-local propertyhandler = Instance.new("StringValue")
+propertyhandler = Instance.new("StringValue")
 propertyhandler.Parent = I1IiII1
 propertyhandler.Name = "propertyhandlerValue"
 propertyhandler.Value = "Nothing"
@@ -6203,7 +6647,7 @@ function cEffectsPreset(prop, val, name)
 end
 
 -- cEffects Execute Button
-local CEffectsBtn = Instance.new("TextButton")
+CEffectsBtn = Instance.new("TextButton")
 CEffectsBtn.Name = "CEffectsBtn"
 CEffectsBtn.Parent = Effects
 CEffectsBtn.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
@@ -6216,13 +6660,13 @@ CEffectsBtn.TextStrokeTransparency = 0
 CEffectsBtn.TextWrapped = true
 CEffectsBtn.Size = UDim2.new(0.28, 0, 0.055, 0)
 CEffectsBtn.Position = UDim2.new(0.04, 0, 1.01, 0)
-local CEffectsCorner = Instance.new("UICorner")
+CEffectsCorner = Instance.new("UICorner")
 CEffectsCorner.CornerRadius = UDim.new(0, 6)
 CEffectsCorner.Parent = CEffectsBtn
 CEffectsBtn.MouseButton1Click:Connect(function() execCEffects() end)
 
 -- cEffects SPAM (x10) Button
-local CEffectsSpamBtn = Instance.new("TextButton")
+CEffectsSpamBtn = Instance.new("TextButton")
 CEffectsSpamBtn.Name = "CEffectsSpamBtn"
 CEffectsSpamBtn.Parent = Effects
 CEffectsSpamBtn.BackgroundColor3 = Color3.fromRGB(80, 30, 30)
@@ -6235,7 +6679,7 @@ CEffectsSpamBtn.TextStrokeTransparency = 0
 CEffectsSpamBtn.TextWrapped = true
 CEffectsSpamBtn.Size = UDim2.new(0.30, 0, 0.055, 0)
 CEffectsSpamBtn.Position = UDim2.new(0.35, 0, 1.01, 0)
-local CEffectsSpamCorner = Instance.new("UICorner")
+CEffectsSpamCorner = Instance.new("UICorner")
 CEffectsSpamCorner.CornerRadius = UDim.new(0, 6)
 CEffectsSpamCorner.Parent = CEffectsSpamBtn
 CEffectsSpamBtn.MouseButton1Click:Connect(function()
@@ -6266,7 +6710,7 @@ CEffectsSpamBtn.MouseButton1Click:Connect(function()
 end)
 
 -- cEffects RAMP Button
-local CEffectsRampBtn = Instance.new("TextButton")
+CEffectsRampBtn = Instance.new("TextButton")
 CEffectsRampBtn.Name = "CEffectsRampBtn"
 CEffectsRampBtn.Parent = Effects
 CEffectsRampBtn.BackgroundColor3 = Color3.fromRGB(30, 30, 80)
@@ -6279,7 +6723,7 @@ CEffectsRampBtn.TextStrokeTransparency = 0
 CEffectsRampBtn.TextWrapped = true
 CEffectsRampBtn.Size = UDim2.new(0.28, 0, 0.055, 0)
 CEffectsRampBtn.Position = UDim2.new(0.68, 0, 1.01, 0)
-local CEffectsRampCorner = Instance.new("UICorner")
+CEffectsRampCorner = Instance.new("UICorner")
 CEffectsRampCorner.CornerRadius = UDim.new(0, 6)
 CEffectsRampCorner.Parent = CEffectsRampBtn
 CEffectsRampBtn.MouseButton1Click:Connect(function()
@@ -6301,7 +6745,7 @@ end)
 
 -- ==================== cEffects PRESETS ====================
 -- Header label
-local CEffectsHeader = Instance.new("TextLabel")
+CEffectsHeader = Instance.new("TextLabel")
 CEffectsHeader.Name = "CEffectsHeader"
 CEffectsHeader.Parent = Effects
 CEffectsHeader.BackgroundTransparency = 1
@@ -6315,10 +6759,10 @@ CEffectsHeader.Size = UDim2.new(1, 0, 0.04, 0)
 CEffectsHeader.Position = UDim2.new(0, 0, 1.08, 0)
 
 -- Preset button helper
-local presetY = 1.14
-local presetCol = 0
+presetY = 1.14
+presetCol = 0
 
-local cEffectsPresets = {
+cEffectsPresets = {
     {"Fire Heat=25", "Heat", 25, "fire", Color3.fromRGB(120, 40, 10)},
     {"Fire Heat=999", "Heat", 999, "fire", Color3.fromRGB(160, 20, 10)},
     {"Fire Size=50", "Size", 50, "fire", Color3.fromRGB(100, 40, 10)},
